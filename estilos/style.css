@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* GENERAL */
+
+.container{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(223, 223, 223);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* CUSTOME LINK */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+
+header{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 16px;
+    color: black;
+}
+
+.Logo{
+    height: 50px;
+    width: 50px;
+}
+
+.Menu ul{
+    display: flex;
+}
+
+.Menu ul li{
+    padding: 10px;
+}
+
+.Menu ul li a:hover{
+    color: green;
+}
+
+.Menu ul li a{
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+/* CONTAINER BODY */
+
+.container2{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+/* IMAGEN */
+
+.image{
+    border-radius: 10px;
+    height: 350px;
+    background-image: url(/resources/publicidad1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.image h3{
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+}
+
+/* POST */
+
+.content{
+    padding: 20px;
+}
+
+.content .Post img{
+    height: 100px;
+    width: 100PX;
+    background-repeat: no-repeat;
+    image-resolution: 100%;
+}
+
+.PostContainer{
+    padding-top: 30px;
+}
+
+.Post{
+    display: flex;
+}
+
+/* ASIDE */
+
+.aside{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.aside h3{
+    color: grey;
+}
+
+.aside ul li{
+    padding: 10px;
+}
+
+.aside ul li img{
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: khaki;
+    grid-area: footer;
+}
